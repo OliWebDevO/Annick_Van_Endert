@@ -18,6 +18,7 @@
       <!-- animate css -->
       <link rel="stylesheet" href="./plugins/animate.css/animate.css">
       <link rel="stylesheet" href="./plugins/simple-lightbox.min.css">
+
       <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -105,29 +106,37 @@
         </nav>
         <div class="hero-page"></div>
         <div class="title-page">
-            <h2>Contact</h2>
-            
+            <h2>Tableaux</h2>
         </div>
+
     </header>
-    <section class="section-contact">
+    <div class="gallery-section">
         <div class="wrapper">
-            <div class="contact-box wow animate__fadeInUp" data-wow-delay="0.1s">
-                <div class="contact-title">
-                    <h3>Contactez moi</h3>
-                </div>
-                <div class="contact-form">
-                    <form class="contact-form" action="">
-                        <div class="form-info">
-                            <input type="text" placeholder="Votre nom">
-                            <input type="text" placeholder="Votre mail">
-                            <textarea name="message" placeholder="Votre message" id="" cols="30" rows="10"></textarea>
-                            <input class="form-send" type="submit" value="Envoyer"> 
-                        </div>
-                    </form>
-                </div>
+            <div class="gallery-btns button-group filterizr-filter">
+                <button class="btn-1 gal"><a href="gallerie.html">Annick</a></button>
+                <button class="btn-1 gal"><a href="gallerie-artsenic.html">Artsenic</a></button>
+            </div>
+            <div class="gallery-btns2 g-btns-2 button-group filterizr-filter">
+                <button class="btn-1 gal" data-filter="*">All</button>
+                <button class="btn-1 gal" data-filter="toile">Toiles</button>
+                <button class="btn-1 gal" data-filter="dessin">Dessins</button>
+                <button class="btn-1 gal" data-filter="sculpture">Sculptures</button>
+                <button class="btn-1 gal" data-filter="divers">Divers</button>
+            </div>
+            <div class="gallery">
+                <a href="img/artsenic/artsenic1_orig.jpg"><img data-filter="toile" src="img/artsenic/artsenic1_orig.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic2.jpg"><img data-filter="toile" src="img/artsenic/artsenic2.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic3.jpg"><img data-filter="toile" src="img/artsenic/artsenic3.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic4.jpg"><img data-filter="toile" src="img/artsenic/artsenic4.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic5.jpg"><img data-filter="toile" src="img/artsenic/artsenic5.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic6.jpg"><img data-filter="toile" src="img/artsenic/artsenic6.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic7.jpg"><img data-filter="toile" src="img/artsenic/artsenic7.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic8.jpg"><img data-filter="toile" src="img/artsenic/artsenic8.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic9.jpg"><img data-filter="toile" src="img/artsenic/artsenic9.jpg" alt=""></a>
+                <a href="img/artsenic/artsenic10.jpg"><img data-filter="toile" src="img/artsenic/artsenic10.jpg" alt=""></a>
             </div>
         </div>
-    </section>
+    </div>
     <div class="parrallax">
         <div class="parrallax-img"></div>
     </div>
@@ -195,12 +204,13 @@
             </div>
         </div>
     </footer>
-
     <script defer src="scripts/main.js"></script>
+    <script src="plugins/vanilla.filterizr.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./plugins/wow.js/dist/wow.min.js"></script>
-    <script src="./plugins/lenis.min.js"></script>
-    <script type="text/javascript" src="plugins//simple-lightbox.min.js"></script> 
+    <script src="./plugins/lenis.min.js"></script> 
+    <script type="text/javascript" src="plugins//simple-lightbox.min.js"></script>
+    <script src="plugins/isotope.pkgd.min.js"></script>
 </body>
 
 </html>

@@ -115,9 +115,64 @@ backToTop.addEventListener('click', ()=>{
 
 // BTN ACTIF
 	
-let container = document.querySelector('.gallery-btns');
+// let container = document.querySelector('.gallery-btns');
 
-container.addEventListener('click', (event)=> {
+// container.addEventListener('click', (event)=> {
+  
+// // On check si on est bien sur un bouton
+// if (event.target.classList.contains('gal')) {
+//     // On vérifie si le bouton a déjà une classe active
+//     if (event.target.classList.contains('active')) {
+//         event.target.classList.remove('active') 
+//         // On vérifie si l'élément cliqué n'a pas déjà une classe active 
+//     } else {
+//         // Si mon container a un autre enfant que celui sur lequel je suis en train de cliquer qui possède déjà la classe active
+//         if (container.querySelector('.active')) {
+//             container.querySelector('.active').classList.remove('active') 
+//         }
+//         // Si mon wrapper n'a aucun enfant qui a la classe active alors ... 
+//         event.target.classList.add('active')
+//         var selector = event.target.getAttribute('data-filter')
+//             // console.log(selector)
+//             let imgs = document.querySelectorAll('.gallery img')
+//             imgs.forEach(img => {
+//               if (selector === '*') {
+//                 img.classList.remove('hide')
+//                 setTimeout(() => {
+//                   img.classList.remove('destroy')
+//                 }, "800");
+//                 document.querySelector('.gallery').classList.remove('gallerySwitchSmall')
+//                 document.querySelector('.gallery').classList.remove('gallerySwitch')
+//               } else if (img.getAttribute('data-filter') !== selector) {
+//                 img.classList.add('hide')
+//                 setTimeout(() => {
+//                   img.classList.add('destroy')
+//                 }, "800");
+//                 if (event.target.getAttribute('data-filter') === '2020'){
+//                   document.querySelector('.gallery').classList.remove('gallerySwitch')
+//                   document.querySelector('.gallery').classList.add('gallerySwitchSmall')
+//                 } else { 
+//                   document.querySelector('.gallery').classList.remove('gallerySwitchSmall')
+//                   document.querySelector('.gallery').classList.add('gallerySwitch')
+//                 }
+//               } else {
+                
+//                   img.classList.remove('hide')
+//                   setTimeout(() => {
+//                     img.classList.remove('destroy')
+//                   }, "800");
+                  
+//               }
+//             })
+//             // if (selector != document.querySelector('.gallery img').getAttribute('data-filter')) {document.querySelector('.gallery img').classList.add('hide') }
+//      } 
+// }
+// });
+
+
+let container2 = document.querySelector('.gallery-btns2');
+
+container2.addEventListener('click', (event)=> {
   
 // On check si on est bien sur un bouton
 if (event.target.classList.contains('gal')) {
@@ -127,8 +182,8 @@ if (event.target.classList.contains('gal')) {
         // On vérifie si l'élément cliqué n'a pas déjà une classe active 
     } else {
         // Si mon container a un autre enfant que celui sur lequel je suis en train de cliquer qui possède déjà la classe active
-        if (container.querySelector('.active')) {
-            container.querySelector('.active').classList.remove('active') 
+        if (container2.querySelector('.active')) {
+            container2.querySelector('.active').classList.remove('active') 
         }
         // Si mon wrapper n'a aucun enfant qui a la classe active alors ... 
         event.target.classList.add('active')
@@ -168,8 +223,6 @@ if (event.target.classList.contains('gal')) {
      } 
 }
 });
-
-
 
 
 
