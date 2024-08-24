@@ -80,8 +80,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 50px;
+    button {
+        margin-bottom: 10px;
+    }
 }
 .gal {
     border-radius: 10px;
