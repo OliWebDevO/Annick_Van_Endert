@@ -36,6 +36,31 @@
         height: 610px;
     }
 }
+
+@media (max-width: 1050px) {
+    .about-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 40vw);
+        gap: 8px;
+        img {
+            width: 80vw;
+        }
+        .grid-img-1 {
+            height: 200px;
+        }
+        .grid-img-2 {
+            height: 200px;
+        }
+        .grid-img-3 {
+            height: 410px;
+        }
+    }
+}
+
 .artscenic-about{
     margin-top: 0;
 }

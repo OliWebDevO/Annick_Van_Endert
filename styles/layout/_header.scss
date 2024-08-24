@@ -36,10 +36,29 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.292);
+    background: rgba(0, 0, 0, 0.422);
     z-index: 1;
 }
-
+.hero2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.422);
+    z-index: 1;
+}
+.hero3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.422);
+    z-index: 1;
+}
 :root {
     --swiper-navigation-color:#fb8a00;
     --swiper-pagination-color:#fb8a00;
@@ -67,5 +86,15 @@
         p {
             color: white;
         }
+    }
+    @media (max-width: 768px) {
+        padding-right: 50px;
+        h1 {
+            font-size: 38px;
+        }
+        .h-p {
+            width: 100%;
+        }
+        
     }
 }

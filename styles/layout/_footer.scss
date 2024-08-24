@@ -1,15 +1,21 @@
 footer {
-    height: 60vh;
     background-color: #191107;
     padding: 10vh 10vw;
 }
+
 .f-wrapper {
-    width: 80%;
+    width: 80vw;
     color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
+@media (max-width: 570px) {
+    .f-wrapper {
+      justify-content: center;
+    }
+  }
 .footer-h3 {
     color: orange;
     font-size: 24px;
@@ -52,6 +58,11 @@ footer {
         padding: 0;
     }
 }
+@media (max-width: 762px) {
+    .f-menu {
+      display: none;
+    }
+  }
 .f-collection {
     ul {
         padding: 0;

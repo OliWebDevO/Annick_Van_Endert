@@ -74,6 +74,31 @@ window.addEventListener("scroll", function(){
        {nav.classList.add('translateUp');} else {nav.classList.remove("translateUp");}   
 } );
 
+let logo = document.querySelector('.n-logo');
+window.addEventListener("scroll", function(){  
+  currentScrollPosition = window.scrollY;         
+  if (currentScrollPosition  > 0)
+  {logo.classList.add('orange');} else {logo.classList.remove("orange");}   
+} );
+
+let bline = document.querySelectorAll('nav .burger .bline');
+window.addEventListener("scroll", function(){  
+  currentScrollPosition = window.scrollY;   
+  bline.forEach(element => {      
+  if (currentScrollPosition  > 0)
+  {element.classList.add('bappear');} else {element.classList.remove("bappear");}
+});   
+});
+let mainMenu = document.querySelector('.b-nav .main-menu');
+let burger = document.querySelectorAll('.burger');
+ let bburger = document.querySelector('.b-nav .burger');
+burger.forEach(element => {
+  element.addEventListener('click', ()=>{
+    mainMenu.classList.toggle('bactive');
+    bburger.classList.toggle('bbappear');
+    
+  })
+});
 // Back to top
 
 let backToTop = document.querySelector('.back-to-top')
