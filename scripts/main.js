@@ -220,14 +220,14 @@ if (event.target.classList.contains('gal')) {
                 img.classList.remove('hide')
                 setTimeout(() => {
                   img.classList.remove('destroy')
-                }, "800");
+                }, "100");
                 document.querySelector('.gallery').classList.remove('gallerySwitchSmall')
                 document.querySelector('.gallery').classList.remove('gallerySwitch')
               } else if (img.getAttribute('data-filter') !== selector) {
                 img.classList.add('hide')
                 setTimeout(() => {
                   img.classList.add('destroy')
-                }, "800");
+                }, "100");
                 if (event.target.getAttribute('data-filter') === '2020'){
                   document.querySelector('.gallery').classList.remove('gallerySwitch')
                   document.querySelector('.gallery').classList.add('gallerySwitchSmall')
@@ -240,7 +240,7 @@ if (event.target.classList.contains('gal')) {
                   img.classList.remove('hide')
                   setTimeout(() => {
                     img.classList.remove('destroy')
-                  }, "800");
+                  }, "100");
                   
               }
             })

@@ -64,7 +64,7 @@ section {
     }
 }
 .hero-page {
-        height: 40vh;
+        height: 50vh;
         position: relative;
         z-index: -1;
         background: url(../img/hero.jpg) center / cover;
@@ -81,12 +81,13 @@ section {
             z-index: 1;
         }
 }
+
 .title-page {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
