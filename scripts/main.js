@@ -118,6 +118,32 @@ backToTop.addEventListener('click', ()=>{
 })
 
 
+// Hero Slider Mobile vs Desktop
+
+// let swiperWrapper = document.querySelector('.swiper-wrapper');
+// var isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
+
+
+// function checkWidth() {
+//   // if (window.innerWidth < 768) {
+//   if (isMobile == true) {
+//     swiperWrapper.classList.add('SliderDesktopOff');
+//   } else {
+//     swiperWrapper.classList.remove('SilderDesktopOff');
+//   }
+//  }
+// function checkWidth() {
+//   // if (window.innerWidth < 768) {
+//   if (viewport.height < 800 && viewport.width < 800) {
+//     swiperWrapper.classList.add('SliderDesktopOff');
+//   } else {
+//     swiperWrapper.classList.remove('SilderDesktopOff');
+//   }
+//  }
+//  window.addEventListener('resize', checkWidth);
+// 
+
+
 
 // Filterizr
 

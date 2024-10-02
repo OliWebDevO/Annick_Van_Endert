@@ -95,6 +95,17 @@
         .h-p {
             width: 100%;
         }
-        
     }
 }
+
+@media (min-width: 768px) {
+   .slider-mobile{
+    display: none;
+   }
+}
+@media (max-width: 768px) {
+   .slider-desktop{
+    display: none;
+   }
+}
+
