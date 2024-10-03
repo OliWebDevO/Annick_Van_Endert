@@ -114,3 +114,17 @@
     color: white;
     border-radius: 5px;
 }
+.gal-cont-img {
+    position: relative;
+    z-index: 1;
+}
+.gal-titre {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    width: calc(100% - 5px);
+    background-color: rgba(0, 0, 0, 0.485);
+    padding: 5px;
+    z-index: 2;
+    color: white;
+}
