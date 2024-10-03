@@ -64,3 +64,13 @@
 .artscenic-about{
     margin-top: 0;
 }
+@media (min-width: 600px) {
+    .about-mobile {
+        display: none;
+    }  
+}
+@media (max-width: 600px) {
+    .about-desktop {
+        display: none;
+    }  
+}

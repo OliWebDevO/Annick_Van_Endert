@@ -43,11 +43,18 @@ i:hover {
 .one {
     margin-top: 300px;
 }
+
 @media (max-width: 1050px) {
     .one {
         margin-top: 150px;
     }
 }
+    @media (max-width: 600px) {
+        .one {
+            margin-top: 50px;
+        }
+    }
+
 section {
     height: 80vh;
     display: flex;
