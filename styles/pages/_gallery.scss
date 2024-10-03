@@ -57,17 +57,7 @@
         transition: ease-in-out .9s;
         }
 }
-@media (max-width: 600px) {
-    .gallerySwitch {
-        -webkit-column-count: 1; /* Chrome, Safari, Opera */
-        -moz-column-count: 1; /* Firefox */
-        column-count: 1;
-        img {
-            padding: 6px 1px;
-            transition: ease-in-out .9s;
-            }
-    }  
-}
+@media (max-width: 600px){.gallerySwitch{-webkit-column-count: 1;-moz-column-count: 1;column-count: 1;}}
 
 .hide {
     // display: none;

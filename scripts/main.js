@@ -240,7 +240,7 @@ if (event.target.classList.contains('gal')) {
         event.target.classList.add('active')
         var selector = event.target.getAttribute('data-filter')
             // console.log(selector)
-            let imgs = document.querySelectorAll('.gallery img')
+            let imgs = document.querySelectorAll('.gallery .gal-cont-img')
             imgs.forEach(img => {
               if (selector === '*') {
                 img.classList.remove('hide')
